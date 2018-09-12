@@ -11,12 +11,15 @@ def countTotal():
     ds = input('Directory path: ')
     directory = os.listdir(ds)
     classCount = 0
+    numberFiles = 0
+    numberJSON = 0
     # initialize to 0
     allCount = [0] * len(allClass)
     
     for file in directory:
         filename = os.fsdecode(file)
         if filename.endswith('.json'):
+            numberJSON+=1
             checkFile = open(ds + "\\" + filename)
             lines = checkFile.read()
             print("Reading " + filename + "...")
@@ -26,6 +29,8 @@ def countTotal():
                 currentCount = allCount[index]
                 currentCount+=getOccurences
                 allCount[index] = currentCount
+        elif filename.endswith('.jpg'):
+            numberFiles+=1
         else:
             continue
     print("\n----- Classes -----")
@@ -33,6 +38,7 @@ def countTotal():
         getIndex = allClass.index(x)
         print('[' + str(getIndex) + '] ' + x + ': ' + str(allCount[getIndex]))
     print("------- END -------\n")
-    exitNow = input("Press any key to exit...")
-
+    print("Total annotated: " + str(numberJSON) + "/" + str(numberFiles))
+    exitNow = input("\nPress any key to exit...")
+    
 countTotal()
