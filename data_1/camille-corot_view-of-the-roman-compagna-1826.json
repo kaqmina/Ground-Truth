@@ -1,32 +1,6 @@
 {
   "flags": {},
-  "shapes": [
-    {
-      "label": "_background_",
-      "line_color": [
-        0,
-        255,
-        127,
-        128
-      ],
-      "fill_color": [
-        255,
-        0,
-        0,
-        128
-      ],
-      "points": [
-        [
-          344,
-          211
-        ],
-        [
-          344,
-          214
-        ]
-      ]
-    }
-  ],
+  "shapes": [],
   "lineColor": [
     255,
     255,
