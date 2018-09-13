@@ -3,7 +3,12 @@
   "shapes": [
     {
       "label": "cow",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -285,8 +290,13 @@
       ]
     },
     {
-      "label": "__ignore__",
-      "line_color": null,
+      "label": "cow",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -345,7 +355,12 @@
     },
     {
       "label": "cow",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -427,8 +442,13 @@
       ]
     },
     {
-      "label": "__ignore__",
-      "line_color": null,
+      "label": "cow",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -498,6 +518,90 @@
         [
           461,
           224
+        ]
+      ]
+    },
+    {
+      "label": "__ignore__",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          469,
+          204
+        ],
+        [
+          483,
+          204
+        ],
+        [
+          491,
+          201
+        ],
+        [
+          489,
+          198
+        ],
+        [
+          484,
+          193
+        ],
+        [
+          476,
+          191
+        ],
+        [
+          469,
+          189
+        ],
+        [
+          464,
+          189
+        ],
+        [
+          463,
+          193
+        ]
+      ]
+    },
+    {
+      "label": "__ignore__",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          480,
+          191
+        ],
+        [
+          485,
+          185
+        ],
+        [
+          494,
+          188
+        ],
+        [
+          500,
+          197
+        ],
+        [
+          490,
+          201
+        ],
+        [
+          489,
+          198
         ]
       ]
     }
