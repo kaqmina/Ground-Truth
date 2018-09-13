@@ -18,6 +18,8 @@ def countTotal():
     
     for file in directory:
         filename = os.fsdecode(file)
+        if filename.startswith('peder'):
+            break
         if filename.endswith('.json'):
             numberJSON+=1
             checkFile = open(ds + "\\" + filename)
@@ -39,6 +41,6 @@ def countTotal():
         print('[' + str(getIndex) + '] ' + x + ': ' + str(allCount[getIndex]))
     print("------- END -------\n")
     print("Total annotated: " + str(numberJSON) + "/" + str(numberFiles))
-    exitNow = input("\nPress any key to exit...")
+    exitNow = input("\nPress ENTER to exit...")
     
 countTotal()

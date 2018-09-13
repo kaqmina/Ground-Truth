@@ -3,7 +3,12 @@
   "shapes": [
     {
       "label": "person",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -126,7 +131,12 @@
     },
     {
       "label": "__ignore__",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -196,6 +206,38 @@
         [
           198,
           389
+        ]
+      ]
+    },
+    {
+      "label": "__ignore__",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          115,
+          381
+        ],
+        [
+          115,
+          358
+        ],
+        [
+          106,
+          354
+        ],
+        [
+          93,
+          359
+        ],
+        [
+          92,
+          383
         ]
       ]
     }
