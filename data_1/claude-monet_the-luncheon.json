@@ -3,7 +3,12 @@
   "shapes": [
     {
       "label": "__ignore__",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -374,7 +379,12 @@
     },
     {
       "label": "chair",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -449,7 +459,12 @@
     },
     {
       "label": "chair",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -564,7 +579,12 @@
     },
     {
       "label": "person",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -759,7 +779,12 @@
     },
     {
       "label": "person",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -878,7 +903,12 @@
     },
     {
       "label": "person",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -1065,7 +1095,12 @@
     },
     {
       "label": "person",
-      "line_color": null,
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
@@ -1143,6 +1178,346 @@
         [
           205,
           164
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          64,
+          335
+        ],
+        [
+          64,
+          315
+        ],
+        [
+          75,
+          299
+        ],
+        [
+          77,
+          299
+        ],
+        [
+          79,
+          313
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          56,
+          304
+        ],
+        [
+          56,
+          327
+        ],
+        [
+          11,
+          322
+        ],
+        [
+          10,
+          302
+        ],
+        [
+          42,
+          303
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          182,
+          337
+        ],
+        [
+          192,
+          331
+        ],
+        [
+          216,
+          340
+        ],
+        [
+          217,
+          356
+        ],
+        [
+          222,
+          356
+        ],
+        [
+          221,
+          342
+        ],
+        [
+          232,
+          346
+        ],
+        [
+          233,
+          366
+        ],
+        [
+          191,
+          348
+        ],
+        [
+          182,
+          344
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          241,
+          339
+        ],
+        [
+          247,
+          343
+        ],
+        [
+          241,
+          350
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          181,
+          326
+        ],
+        [
+          180,
+          332
+        ],
+        [
+          188,
+          327
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          191,
+          323
+        ],
+        [
+          182,
+          319
+        ],
+        [
+          181,
+          308
+        ],
+        [
+          209,
+          313
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          199,
+          326
+        ],
+        [
+          210,
+          320
+        ],
+        [
+          216,
+          323
+        ],
+        [
+          215,
+          333
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          252,
+          337
+        ],
+        [
+          242,
+          332
+        ],
+        [
+          242,
+          320
+        ],
+        [
+          244,
+          319
+        ],
+        [
+          253,
+          323
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          241,
+          283
+        ],
+        [
+          246,
+          285
+        ],
+        [
+          248,
+          241
+        ],
+        [
+          242,
+          242
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          250,
+          286
+        ],
+        [
+          253,
+          287
+        ],
+        [
+          256,
+          235
+        ],
+        [
+          252,
+          240
+        ]
+      ]
+    },
+    {
+      "label": "_background_",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
+      "fill_color": null,
+      "points": [
+        [
+          242,
+          233
+        ],
+        [
+          242,
+          238
+        ],
+        [
+          247,
+          237
+        ],
+        [
+          256,
+          231
+        ],
+        [
+          256,
+          225
         ]
       ]
     }

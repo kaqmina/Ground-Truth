@@ -2,8 +2,13 @@
   "flags": {},
   "shapes": [
     {
-      "label": "pottedplant",
-      "line_color": null,
+      "label": "potted plant",
+      "line_color": [
+        0,
+        255,
+        127,
+        128
+      ],
       "fill_color": null,
       "points": [
         [
