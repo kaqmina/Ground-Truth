@@ -61,7 +61,6 @@ def generate():
                     currentPercentage = currentLine[1]
                     numberOfInstances = currentLine[3]
                     index = columns.index(currentFamily)
-                    # print('Color index: ' + str(index) + ' Size of currentrow: ' + str(len(currentRow)))
                     currentRow[index] = currentPercentage
                     index = columns.index(currentFamily + ' instances')
                     currentRow[index] = numberOfInstances
