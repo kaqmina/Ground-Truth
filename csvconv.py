@@ -80,6 +80,7 @@ def generate():
 
 def getEmotionLabel(filename):
     # Code here for getting the annotated emotion and append it to row.
+    print('Not yet implemented.')
 
 def createFile():
     filename = input('Enter new name: ')
