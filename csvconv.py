@@ -52,7 +52,6 @@ def generate():
                     currentLabel = cl[:-1]
                     currentValue = currentLine[3]
                     index = columns.index(currentLabel)
-                    # print('Class index: ' + str(index))
                     currentRow[index] = currentValue
                 # In color family list.
                 elif any(cfamily in line for cfamily in colorKeywords):
@@ -70,12 +69,8 @@ def generate():
                 else:
                     continue
             row.append(currentRow)
-            # print(row)
-            # currentRow.clear()
         else:
-            continue
-        # print('current row: ' + str(row))
-    # print('2: ' + str(row))
+            continue        
     createFile()
 
 def getEmotionLabel(filename):
