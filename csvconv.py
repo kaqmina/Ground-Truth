@@ -32,9 +32,9 @@ def generate():
         currentRow = [0] * len(columns)
 
         # For limiting rows.
-        # i+=1
-        # if i > 10:
-        #    break
+        i+=1
+        if i > 1000:
+            break
         
         # Check if it is a log file.
         if filename.endswith('.log'):
