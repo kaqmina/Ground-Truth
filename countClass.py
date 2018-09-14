@@ -19,8 +19,8 @@ def countTotal():
     print('\n----- START -----')
     for file in directory:
         filename = os.fsdecode(file)
-        if filename.startswith('peder'):
-            break
+        #if filename.startswith('peder'):
+        #    break
         if filename.endswith('.json'):
             numberJSON+=1
             checkFile = open(ds + "\\" + filename)
