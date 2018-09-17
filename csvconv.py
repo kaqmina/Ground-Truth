@@ -16,7 +16,7 @@ columns.extend(allClass)
 # Extend color to columns.
 for color in colorKeywords:
     columns.append(color)
-    columns.append(color + ' instances')
+    columns.append('n_' + color.lower())
 
 row = []
 
@@ -62,7 +62,7 @@ def generate():
                     numberOfInstances = currentLine[3]
                     index = columns.index(currentFamily)
                     currentRow[index] = currentPercentage
-                    index = columns.index(currentFamily + ' instances')
+                    index = columns.index('n_' + currentFamily.lower())
                     currentRow[index] = numberOfInstances
                 # Not matching any keywords.
                 else:
